@@ -36,6 +36,7 @@ financial company.
 - **Confusion Matrix** - It gives a better way to evaluate our models on the basis of **Precision**, **Recall** and **F-beta Score**.
 - In our case, we mainly focus on **Recall** as we can't let go a transactions which is fraud. Thus, our model must be accurate in term of predicting fraud transactions which are acutually true. if, a transactions which is not fraud and predicted to be fraud then we can cross verify it.
 - So, we must reduce the recall or select the model which have lowest recall.
+- Random Forest suits well for this binary classification because it gives better **Recall** accuracy then LR model.
 
 
 # Conclusion / Answer to asked Questions
